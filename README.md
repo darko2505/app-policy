@@ -17,7 +17,7 @@ processed.  We compute policy based on a global store which is distributed to Di
 This guide explains how to install Calico & Istio into your cluster, and use it to
 enforce authorization policies in a simple demo application.
  
-This demo will run on a Calico-enabled Kubernetes cluster. You will need a [Kubernetes][kubernetes] cluster running v1.8 or later
+This demo will run on a Calico enabled Kubernetes cluster. You will need a [Kubernetes][kubernetes] cluster running v1.8 or later
 with RBAC and [Initializers] enabled. 
  
 If you have Calico or Istio installed, remove them from the cluster.  This preview relies on the latest Calico build and
